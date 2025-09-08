@@ -1,0 +1,27 @@
+{
+  "name": "chat-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.19",
+    "baileys-pro": "^0.0.5",
+    "express": "^5.1.0",
+    "nebuladrop": "^1.0.1",
+    "nodemon": "^3.1.10",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "pares.json"
+    ]
+  }
+}
